@@ -318,6 +318,7 @@ h6 {
     img {
       vertical-align: middle;
       display: inline-block;
+      text-align: center;
 
   }
 }
@@ -325,26 +326,35 @@ h6 {
     color: #A4B4C0;
     font-family: "myriad";
     display: inline-block;
+    text-align: center;
     margin-left: 10px;
     font-size: 14px;
-    margin-top: 0;
-    margin-bottom: 32px;
+    // margin-top: 0;
+    // margin-bottom: 8px;
 
     }
+    .nav{
+      float: right;
+      padding-right: 124px;
 
-.nav {
-  float: right;
-  display: inline-block;
-  margin-right: 125px;
-  margin-bottom: 32px;
-ul{
-  float:right;
-  li{
-  display: inline-block;
-  color:#90A3B1;
-  font-family: "myriad";
+    ul {
+        text-align: center;
 
-}
-}
-}
+      li{
+        font-family: "myriad";
+        font-size: 14px;
+        display: inline-block;
+        padding-right:4px;
+        line-height: 30px;
+
+        a {
+          color: #90A3B1;
+          text-decoration: none;
+          border-right: 2px solid #90A3B1;
+          padding-right: 4px;
+
+        }
+      }
+    }
+  }
 }
