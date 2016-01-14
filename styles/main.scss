@@ -298,6 +298,11 @@ h6 {
 }
 &:hover {
   .overlay{
+    cursor: pointer;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
     opacity: 0;
   }
   h6 {
